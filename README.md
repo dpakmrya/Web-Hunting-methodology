@@ -1,4 +1,4 @@
-# Web-Hunting-methodology
+WEB HUNTING  METHODOLOGY
 
 Google,github and shodan Dorking
 
@@ -507,6 +507,7 @@ My command : wpscan --url https://target.com --disable-tls-check --enumerate u
 After the scan is completed you’ll get the result of out-dated and vulnerable things.
 In my case it was vulnerable to “WP Support Plus Responsive Ticket System”
 Referance: https://shahjerry33.medium.com/privilege-escalation-hello-admin-a53ac14fd388
+
 Contant Discovery
 
 dirsearch -e conf,config,bak,backup,swp,old,db,sql,asp,aspx,aspx~,asp~,py,py~,rb,rb~,php,php~,bak,bkp,cache,cgi,conf,csv,html,inc,jar,js,json,jsp,jsp~,lock,log,rar,old,sql,sql.gz,sql.zip,sql.tar.gz,sql~,swp,swp~,tar,tar.bz2,tar.gz,txt,wadl,zip,log,xml,js,json -u https://agrevolution.in/ --deep-recursive --force-recursive --exclude-sizes=0B --random-agent --full-url -o dirsearch.txt
